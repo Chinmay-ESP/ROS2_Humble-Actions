@@ -1,0 +1,41 @@
+[0.379s] Invoking command in '/home/chinmay/ROS2_Humble-Actions/src/actions_py': PYTHONPATH=/home/chinmay/ROS2_Humble-Actions/src/build/actions_py/prefix_override:/home/chinmay/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/chinmay/ROS2_Humble-Actions/src/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/actions_py build --build-base /home/chinmay/ROS2_Humble-Actions/src/build/actions_py/build install --record /home/chinmay/ROS2_Humble-Actions/src/build/actions_py/install.log --single-version-externally-managed install_data
+[0.505s] running egg_info
+[0.506s] creating ../build/actions_py/actions_py.egg-info
+[0.506s] writing ../build/actions_py/actions_py.egg-info/PKG-INFO
+[0.506s] writing dependency_links to ../build/actions_py/actions_py.egg-info/dependency_links.txt
+[0.506s] writing entry points to ../build/actions_py/actions_py.egg-info/entry_points.txt
+[0.506s] writing requirements to ../build/actions_py/actions_py.egg-info/requires.txt
+[0.506s] writing top-level names to ../build/actions_py/actions_py.egg-info/top_level.txt
+[0.506s] writing manifest file '../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[0.507s] reading manifest file '../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[0.507s] writing manifest file '../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[0.507s] running build
+[0.508s] running build_py
+[0.508s] creating /home/chinmay/ROS2_Humble-Actions/src/build/actions_py/build
+[0.508s] creating /home/chinmay/ROS2_Humble-Actions/src/build/actions_py/build/lib
+[0.508s] creating /home/chinmay/ROS2_Humble-Actions/src/build/actions_py/build/lib/actions_py
+[0.508s] copying actions_py/count_until_server.py -> /home/chinmay/ROS2_Humble-Actions/src/build/actions_py/build/lib/actions_py
+[0.508s] copying actions_py/__init__.py -> /home/chinmay/ROS2_Humble-Actions/src/build/actions_py/build/lib/actions_py
+[0.508s] copying actions_py/count_until_client.py -> /home/chinmay/ROS2_Humble-Actions/src/build/actions_py/build/lib/actions_py
+[0.508s] running install
+[0.508s] running install_lib
+[0.508s] creating /home/chinmay/ROS2_Humble-Actions/src/install/actions_py/lib/python3.10/site-packages/actions_py
+[0.508s] copying /home/chinmay/ROS2_Humble-Actions/src/build/actions_py/build/lib/actions_py/count_until_server.py -> /home/chinmay/ROS2_Humble-Actions/src/install/actions_py/lib/python3.10/site-packages/actions_py
+[0.508s] copying /home/chinmay/ROS2_Humble-Actions/src/build/actions_py/build/lib/actions_py/__init__.py -> /home/chinmay/ROS2_Humble-Actions/src/install/actions_py/lib/python3.10/site-packages/actions_py
+[0.508s] copying /home/chinmay/ROS2_Humble-Actions/src/build/actions_py/build/lib/actions_py/count_until_client.py -> /home/chinmay/ROS2_Humble-Actions/src/install/actions_py/lib/python3.10/site-packages/actions_py
+[0.509s] byte-compiling /home/chinmay/ROS2_Humble-Actions/src/install/actions_py/lib/python3.10/site-packages/actions_py/count_until_server.py to count_until_server.cpython-310.pyc
+[0.509s] byte-compiling /home/chinmay/ROS2_Humble-Actions/src/install/actions_py/lib/python3.10/site-packages/actions_py/__init__.py to __init__.cpython-310.pyc
+[0.509s] byte-compiling /home/chinmay/ROS2_Humble-Actions/src/install/actions_py/lib/python3.10/site-packages/actions_py/count_until_client.py to count_until_client.cpython-310.pyc
+[0.509s] running install_data
+[0.509s] creating /home/chinmay/ROS2_Humble-Actions/src/install/actions_py/share/ament_index
+[0.509s] creating /home/chinmay/ROS2_Humble-Actions/src/install/actions_py/share/ament_index/resource_index
+[0.509s] creating /home/chinmay/ROS2_Humble-Actions/src/install/actions_py/share/ament_index/resource_index/packages
+[0.509s] copying resource/actions_py -> /home/chinmay/ROS2_Humble-Actions/src/install/actions_py/share/ament_index/resource_index/packages
+[0.510s] copying package.xml -> /home/chinmay/ROS2_Humble-Actions/src/install/actions_py/share/actions_py
+[0.510s] running install_egg_info
+[0.511s] Copying ../build/actions_py/actions_py.egg-info to /home/chinmay/ROS2_Humble-Actions/src/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info
+[0.511s] running install_scripts
+[0.524s] Installing count_until_client script to /home/chinmay/ROS2_Humble-Actions/src/install/actions_py/lib/actions_py
+[0.524s] Installing count_until_server script to /home/chinmay/ROS2_Humble-Actions/src/install/actions_py/lib/actions_py
+[0.524s] writing list of installed files to '/home/chinmay/ROS2_Humble-Actions/src/build/actions_py/install.log'
+[0.545s] Invoked command in '/home/chinmay/ROS2_Humble-Actions/src/actions_py' returned '0': PYTHONPATH=/home/chinmay/ROS2_Humble-Actions/src/build/actions_py/prefix_override:/home/chinmay/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/chinmay/ROS2_Humble-Actions/src/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/actions_py build --build-base /home/chinmay/ROS2_Humble-Actions/src/build/actions_py/build install --record /home/chinmay/ROS2_Humble-Actions/src/build/actions_py/install.log --single-version-externally-managed install_data

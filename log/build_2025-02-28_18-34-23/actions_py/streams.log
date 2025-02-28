@@ -1,0 +1,22 @@
+[0.343s] Invoking command in '/home/chinmay/ROS2_Humble-Actions/src/actions_py': PYTHONPATH=/home/chinmay/ROS2_Humble-Actions/build/actions_py/prefix_override:/home/chinmay/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/chinmay/ROS2_Humble-Actions/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/actions_py build --build-base /home/chinmay/ROS2_Humble-Actions/build/actions_py/build install --record /home/chinmay/ROS2_Humble-Actions/build/actions_py/install.log --single-version-externally-managed install_data
+[0.469s] running egg_info
+[0.469s] writing ../../build/actions_py/actions_py.egg-info/PKG-INFO
+[0.469s] writing dependency_links to ../../build/actions_py/actions_py.egg-info/dependency_links.txt
+[0.469s] writing entry points to ../../build/actions_py/actions_py.egg-info/entry_points.txt
+[0.469s] writing requirements to ../../build/actions_py/actions_py.egg-info/requires.txt
+[0.469s] writing top-level names to ../../build/actions_py/actions_py.egg-info/top_level.txt
+[0.470s] reading manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[0.470s] writing manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[0.471s] running build
+[0.471s] running build_py
+[0.471s] running install
+[0.471s] running install_lib
+[0.471s] running install_data
+[0.472s] running install_egg_info
+[0.472s] removing '/home/chinmay/ROS2_Humble-Actions/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.473s] Copying ../../build/actions_py/actions_py.egg-info to /home/chinmay/ROS2_Humble-Actions/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info
+[0.473s] running install_scripts
+[0.485s] Installing count_until_client script to /home/chinmay/ROS2_Humble-Actions/install/actions_py/lib/actions_py
+[0.485s] Installing count_until_server script to /home/chinmay/ROS2_Humble-Actions/install/actions_py/lib/actions_py
+[0.486s] writing list of installed files to '/home/chinmay/ROS2_Humble-Actions/build/actions_py/install.log'
+[0.501s] Invoked command in '/home/chinmay/ROS2_Humble-Actions/src/actions_py' returned '0': PYTHONPATH=/home/chinmay/ROS2_Humble-Actions/build/actions_py/prefix_override:/home/chinmay/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/chinmay/ROS2_Humble-Actions/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/actions_py build --build-base /home/chinmay/ROS2_Humble-Actions/build/actions_py/build install --record /home/chinmay/ROS2_Humble-Actions/build/actions_py/install.log --single-version-externally-managed install_data

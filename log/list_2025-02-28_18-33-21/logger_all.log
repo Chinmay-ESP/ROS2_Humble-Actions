@@ -1,0 +1,75 @@
+[0.109s] DEBUG:colcon:Command line arguments: ['/home/chinmay/.local/bin/colcon', 'list', '-p', '--base-paths', '/home/chinmay/ROS2_Humble-Actions']
+[0.109s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/chinmay/ROS2_Humble-Actions'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x73aaed813e80>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x73aaed813310>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x73aaed813310>>)
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.211s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chinmay/ROS2_Humble-Actions'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/build) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/build) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/build) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/install) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/install) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/install) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/log) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/log) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/log) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/actions_py) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/actions_py) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/actions_py) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/actions_py) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/actions_py) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/actions_py) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/actions_py) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/actions_py) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/actions_py) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package '/home/chinmay/ROS2_Humble-Actions/src/actions_py' with type 'ros.ament_python' and name 'actions_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/build) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/build) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/install) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/install) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/log) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/log) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/my_robot_interfaces) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/my_robot_interfaces) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/my_robot_interfaces) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/my_robot_interfaces) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/my_robot_interfaces) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/my_robot_interfaces) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/my_robot_interfaces) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/chinmay/ROS2_Humble-Actions/src/my_robot_interfaces) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package '/home/chinmay/ROS2_Humble-Actions/src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
